@@ -3,7 +3,7 @@
   Bare Conductive Pi Cap
   ----------------------
 
-  datastream-tty.cpp - streams capacitive sense data from MPR121 to stdout
+  datastream-tty.js - streams capacitive sense data from MPR121 to stdout
 
   Written for Raspberry Pi.
 
@@ -26,7 +26,8 @@ var MPR121 = require('node-picap');
 var mpr121;
 
 try {
-  mpr121 = new MPR121();
+  // correct address for the Pi Cap - other boards may vary
+  mpr121 = new MPR121('0x5C'); 
 }
 
 catch (e) {

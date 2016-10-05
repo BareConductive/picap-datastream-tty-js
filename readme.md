@@ -17,7 +17,7 @@ Example TTY (terminal) data streaming code for the [Bare Conductive Pi Cap](http
 
 ## Usage
 
-    datastream-tty
+    node datastream-tty.js
     
 N.B. must be run as root
 
