@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "datastream-tty.js",
   "author": "Szymon Kaliski",
-  "license": "CC-BY-SA-3.0",
+  "license": "MIT",
   "scripts": {
     "start": "node datastream-tty.js"
   },
